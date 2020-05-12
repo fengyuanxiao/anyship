@@ -1,0 +1,11 @@
+$alert-colors:
+(
+  "default":    $primary,
+  "success":    $success,
+  "warning":    $warning,
+  "danger":     $danger,
+);
+.any-alert-desc {
+  font-size: $alert-description-font-size;
+  margin: $alert-description-top-margin 0 0;
+}
