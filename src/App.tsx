@@ -18,6 +18,8 @@ function App() {
         <Button btnType ="default" size ='sm'> Small </Button>
         <Button btnType ="danger"> Danger </Button>
         <Button className = 'uobtn' btnType ="default" size ='lg'> Large </Button>
+        <Alert title='default' />
+        <Alert title='success' type='success' />
         <Alert title='标题' type="danger" detailstion="detailstion" onClose={onClose} closable={true} />
       </header>
     </div>
