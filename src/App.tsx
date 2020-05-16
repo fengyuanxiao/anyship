@@ -23,7 +23,7 @@ function App() {
         <Button btnType ="default" size ='sm'> Small </Button>
         <Button btnType ="danger"> Danger </Button>
         <Button className = 'uobtn' btnType ="default" size ='lg'> Large </Button>
-        <Menu defaultIndex={0}>
+        <Menu defaultIndex={0} mode='horizontal'>
           <MenuItem index={0}>
             first menu
           </MenuItem>
